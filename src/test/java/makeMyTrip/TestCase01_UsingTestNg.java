@@ -66,7 +66,7 @@ public class TestCase01_UsingTestNg {
 		 WebElement Search = driver.findElement(By.xpath("//a[@class='primaryBtn font24 latoBold widgetSearchBtn ']"));
 	     ac.click(Search).perform();
 		
-        Thread.sleep(3000);
+        
         driver.quit();
 
 	}
